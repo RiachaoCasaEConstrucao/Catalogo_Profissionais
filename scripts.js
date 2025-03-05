@@ -1,19 +1,19 @@
 // Dados dos profissionais
 const profissionais = {
     pedreiros: [
-        { imagem: "imgs/pedreiros/pedreiroTeste.jpg", nome: "Carlos Oliveira", telefone: "11 97777-7777" },
-        { imagem: "imgs/pedreiros/pedreiroTeste.jpg", nome: "Carlos Oliveira", telefone: "11 97777-7777" },
-        { imagem: "imgs/pedreiros/pedreiroTeste.jpg", nome: "Lucas Silva", telefone: "11 99999-9999" }
+        { imagem: "imgs/pedreiros/pedreiro_teste.jpg", nome: "Carlos Oliveira", telefone: "11 97777-7777" },
+        { imagem: "imgs/pedreiros/pedreiro_teste.jpg", nome: "Carlos Oliveira", telefone: "11 97777-7777" },
+        { imagem: "imgs/pedreiros/pedreiro_teste.jpg", nome: "Lucas Silva", telefone: "11 99999-9999" }
     ],
     eletricistas: [
-        { imagem: "imgs/pedreiros/pedreiroTeste.jpg", nome: "Mario Luigi", telefone: "11 98888-8888" },
-        { imagem: "imgs/pedreiros/pedreiroTeste.jpg", nome: "Carlos Oliveira", telefone: "11 97777-7777" },
-        { imagem: "imgs/pedreiros/pedreiroTeste.jpg", nome: "Pedro Silva", telefone: "11 96666-6666" }
+        { imagem: "imgs/pedreiros/pedreiro_teste.jpg", nome: "Mario Luigi", telefone: "11 98888-8888" },
+        { imagem: "imgs/pedreiros/pedreiro_teste.jpg", nome: "Carlos Oliveira", telefone: "11 97777-7777" },
+        { imagem: "imgs/pedreiros/pedreiro_teste.jpg", nome: "Pedro Silva", telefone: "11 96666-6666" }
     ],
     encanadores: [
-        { imagem: "imgs/pedreiros/pedreiroTeste.jpg", nome: "José Almeida", telefone: "11 95555-5555" },
-        { imagem: "imgs/pedreiros/pedreiroTeste.jpg", nome: "Carlos Oliveira", telefone: "11 97777-7777" },
-        { imagem: "imgs/pedreiros/pedreiroTeste.jpg", nome: "Lúcio Castro", telefone: "11 94444-4444" }
+        { imagem: "imgs/pedreiros/pedreiro_teste.jpg", nome: "José Almeida", telefone: "11 95555-5555" },
+        { imagem: "imgs/pedreiros/pedreiro_teste.jpg", nome: "Carlos Oliveira", telefone: "11 97777-7777" },
+        { imagem: "imgs/pedreiros/pedreiro_teste.jpg", nome: "Lúcio Castro", telefone: "11 94444-4444" }
     ]
 };
 
