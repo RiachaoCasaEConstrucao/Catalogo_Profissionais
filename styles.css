@@ -1,0 +1,155 @@
+/* Reset e estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+/* HEADER EMPRESARIAL */
+header {
+    background: linear-gradient(to right, #eeff00, #ffff00);
+    padding: 20px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* ESTILIZAÇÃO DAS ABAS */
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 12px 18px;
+    background: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tab:hover {
+    background: #bbb;
+}
+
+.tab.active {
+    background: #eeff00;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Conteúdo das abas */
+.tab-content {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* LAYOUT DOS CARDS */
+.pros-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* ESTILIZAÇÃO DOS CARDS */
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 240px;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #ddd;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #eeff00;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Botão do WhatsApp */
+.whatsapp-button {
+    display: inline-block;
+    background: #25d366;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.whatsapp-button:hover {
+    background: #1da851;
+    transform: scale(1.05);
+}
+
+/* Animação */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .tabs {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .tab {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pros-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}

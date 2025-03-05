@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riachão - Parceiros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header empresarial -->
+    <header>
+        <h1>🔨 Profissionais Qualificados</h1>
+        <p>Encontre os melhores profissionais para sua construção ou reforma</p>
+    </header>
+
+    <!-- Abas de navegação -->
+    <div class="tabs">
+        <div class="tab active" onclick="showTab('pedreiros')">🧱 Pedreiros</div>
+        <div class="tab" onclick="showTab('eletricistas')">⚡ Eletricistas</div>
+        <div class="tab" onclick="showTab('encanadores')">🚰 Encanadores</div>
+    </div>
+
+    <!-- Seções para cada categoria -->
+    <div id="pedreiros" class="tab-content active">
+        <div class="pros-list" id="cards-pedreiros"></div>
+    </div>
+
+    <div id="eletricistas" class="tab-content">
+        <div class="pros-list" id="cards-eletricistas"></div>
+    </div>
+
+    <div id="encanadores" class="tab-content">
+        <div class="pros-list" id="cards-encanadores"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
